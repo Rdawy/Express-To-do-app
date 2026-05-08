@@ -1,0 +1,17 @@
+{
+  "name": "express-to-do-app",
+  "version": "1.0.0",
+  "description": "Educational Express.js todo app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js && node --check src/app.js && node --check src/routes/todoRoutes.js && node --check src/controllers/todoController.js && node --check src/services/todoService.js"
+  },
+  "keywords": ["express", "todo", "education"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
